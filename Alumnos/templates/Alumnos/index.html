@@ -1,0 +1,28 @@
+{% extends "Alumnos/base.html" %}
+{% block titulo %}
+Indice
+{%endblock%}
+
+{% block estilos %}
+<style>
+
+a{
+color:purple;
+text-decoration:none;
+}
+
+a:hover{
+color:blue;
+}
+</style>
+{% endblock %}
+
+{% block banner %}
+<h1>Hola este es el indice </h1>
+{% endblock%}
+
+{% block contenido%}
+<p style="text-align:center;"><a href="/resultado" style="font-size:2em; font-weight:bold;"> Ir al registro de alumnos </a></p>
+<p style="text-align:center;"><a href="/admin" style="font-size:2em; font-weight:bold;"> Ir al inicio de sesion </a></p>
+<p>Este es el contenido de la pagina indice</p>
+{% endblock %}

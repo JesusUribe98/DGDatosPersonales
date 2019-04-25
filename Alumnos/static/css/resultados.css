@@ -1,0 +1,12 @@
+body{
+background-color:#00FF7F ;
+color:white;
+}
+
+.info{
+margin:auto;
+background-color:#66CDAA;
+width:90%;
+border-radius:4px 10px 10px 4px;
+}
+
